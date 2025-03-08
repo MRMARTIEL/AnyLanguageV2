@@ -1,17 +1,17 @@
-# AnyLanguage  
-AnyLanguage é uma ferramenta fácil de usar para arquivos .lang destinada a criadores de addons para Minecraft.
+# AnyLanguage
+AnyLanguage is an easy to use .lang file tool for Minecraft addon creators.
 
-## Uso  
-Visite https://solveddev.github.io/AnyLanguage/ ou baixe este repositório e abra o arquivo index.html. Os arquivos de idioma do Minecraft consistem em dois componentes: uma chave e uma tradução. Agora, insira a chave na área de texto à esquerda e, ao lado, a tradução. (Exemplo: death.fell.killer e %1$s foi condenado a cair). Você pode editar os idiomas de destino nas outras duas áreas de texto. Se adicionar um novo idioma, é necessário adicionar um nome para ele na mesma linha na área de texto à direita, a chave do idioma é a caixa de texto ao lado. Certifique-se de que o formato siga en_US, onde as duas primeiras letras representam o idioma e as duas últimas a região.  
-Para gerar os arquivos de idioma, clique em "Download". A página começará a baixar todos os arquivos necessários. Certifique-se de selecioná-los todos e colocá-los na pasta resource_pack em uma pasta chamada "texts".
+## Usage
+Visit https://solveddev.github.io/AnyLanguage/ or download this repository and open the index.html file. Minecraft language files consist of two components: A key and a translation. Now enter the key in the textarea on the far left and next to it the translation. (Example: death.fell.killer and %1$s was doomed to fall). You can edit the target languages in the other two textareas. If you add a new language, you need to add a name for it in the same line in the textarea on the far right, the language key is the textbox next to it. Make sure that the format follows en_US where the first two letters represent the language and the last two the region.
+In order to generate the language files, click "Download". The page will start to download all needed files. Make sure to select them all and put them into your resource_pack folder in a folder called "texts".
 
-## Tradutor Automático  
-AnyLanguage pode traduzir automaticamente seu texto para os idiomas que você selecionar. Os idiomas aceitos são os suportados pelo Google Tradutor. Certifique-se de clicar na caixa de seleção correspondente para ativar as traduções automáticas.
+## Auto Translator
+AnyLanguage can automatically translate your text into the languages you select. Accepted languages are the ones supported by the Google Translator. Make sure to click the corresponding checkbox to toggle auto translations.
 
-## Por quê?!  
-A única maneira de renomear itens no Minecraft Bedrock com addons atualmente é alterando os arquivos de tradução. Para suportar todos os idiomas, você precisa editar cada arquivo .lang. Às vezes, você também quer renomear uma entidade, o que gera o mesmo volume de trabalho. Este gerador pode fazer esse trabalho desagradável por você.
+## Why?!
+The only way to rename items on Minecraft Bedrock with addons is currently by changing the translation files. In order to support all languages, you need to edit every single .lang file. Sometimes you also want to rename an entity which causes the same amount of work. This generator can do this nasty work for you.
 
-## Tecnologias usadas:  
-JSZip: https://stuk.github.io/jszip/  
+## Technologies used:
+JSZip: https://stuk.github.io/jszip/
 
 FileSaver.js: https://github.com/eligrey/FileSaver.js/
